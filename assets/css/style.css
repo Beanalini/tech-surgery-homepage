@@ -1,0 +1,68 @@
+body {
+  font-family: "Arimo", sans-serif;
+  background-color: #def2f1;
+}
+
+a {
+  text-decoration: none;
+}
+header .info {
+  background-color: #05386b;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 1.5rem;
+}
+
+header .info {
+  padding: 0.3rem 2rem;
+}
+.header-links div {
+  padding: 0 2.4rem;
+}
+
+header .info a {
+  color: white;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #116466;
+  padding: 0rem 1rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  /* align-content: center; */
+  justify-content: flex-start;
+}
+
+.nav-links li {
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.nav-links a {
+  color: white;
+}
+
+nav ul li a:hover {
+  color: #05386b;
+}
+
+.nav-search {
+  margin-right: 5px;
+  display: flex;
+  border: 1px solid black;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.nav-search button {
+  background-color: #05386b;
+  color: white;
+}

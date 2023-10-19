@@ -4,34 +4,50 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/normalize-css@2.3.1/normalize.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/7537b73a5f.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./assets/css/style.css" />
+
     <title>Tech Returners Surgery: Home</title>
   </head>
 
   <body>
     <header>
-      <a href="#">Tech Returners Surgery</a>
-      <a href="tel:03330509138">0333 050 9138</a>
+      <div class="info">
+        <a class="logo" href="#">Tech Returners Surgery</a>
+        <div class="tel">
+          <i class="fa-solid fa-square-phone"></i>
+          <a href="tel:03330509138">0333 050 9138</a>
+        </div>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Patient Information</a></li>
+          <li><a href="#">Well-being Centre</a></li>
+        </ul>
+
+        <div class="nav-search">
+          <input
+            type="search"
+            id="site-search"
+            name="search"
+            placeholder="Search..."
+            aria-label="Search through site content"
+          />
+
+          <button class="fa fa-search"></button>
+        </div>
+      </nav>
     </header>
-
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Team</a></li>
-        <li><a href="#">Patient Information</a></li>
-        <li><a href="#">Well-being Centre</a></li>
-      </ul>
-    </nav>
-
-    <label for="site-search">Search...</label>
-    <input
-      type="search"
-      id="site-search"
-      name="search"
-      aria-label="Search through site content"
-    />
-    <button>Search</button>
 
     <section>
       <h3><strong>COVID Restriction Update</strong></h3>
