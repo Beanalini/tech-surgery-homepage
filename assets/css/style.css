@@ -12,11 +12,12 @@ header .info {
   flex-wrap: wrap;
   justify-content: space-between;
   font-size: 1.5rem;
+  padding: 0 2rem;
 }
 
-header .info {
+/* header .info {
   padding: 0.3rem 2rem;
-}
+} */
 .header-links div {
   padding: 0 2.4rem;
 }
@@ -57,7 +58,6 @@ nav ul li a:hover {
 .nav-search {
   margin-right: 5px;
   display: flex;
-  border: 1px solid black;
   border-radius: 5px;
   overflow: hidden;
 }
@@ -68,8 +68,8 @@ nav ul li a:hover {
 }
 
 .ticker {
-  overflow: hidden;
-  padding: 5px 0;
+  /* overflow: hidden;
+  padding: 0 0; */
   background-color: black;
 }
 
@@ -174,4 +174,15 @@ div label {
   color: white;
   border-color: black;
   width: 100%;
+}
+
+footer {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  width: 100%;
+  height: fit-content;
+  background-color: #05386b;
+  border-top: 5px solid #116466;
+  color: white;
 }
