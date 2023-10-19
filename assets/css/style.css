@@ -103,3 +103,75 @@ nav ul li a:hover {
   text-align: center;
   padding: 0.3rem 2rem;
 }
+
+main {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  color: white;
+  display: flex;
+  width: 90%;
+  height: auto;
+  border-radius: 10px;
+  background-color: #88bdbc;
+  justify-content: center;
+  margin-bottom: 50px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-card {
+  background-image: url("../images/surgery.png");
+}
+
+.card-welcome {
+  padding: 40px 0px;
+  flex-direction: column;
+  align-items: center;
+}
+video {
+  max-width: 80%;
+}
+
+.form-card {
+  background-color: rgb(183, 203, 202);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+fieldset {
+  color: #116466;
+  border: 2px solid #05386b;
+}
+
+div:first-of-type {
+  padding-top: 10px;
+}
+
+.form-card fieldset > div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+div input,
+div textarea {
+  padding: 5px 10px;
+  border-color: white;
+}
+
+div label {
+  width: auto;
+}
+
+.form-submit {
+  background-color: #05386b;
+  color: white;
+  border-color: black;
+  width: 100%;
+}

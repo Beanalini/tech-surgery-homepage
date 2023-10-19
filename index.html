@@ -92,94 +92,94 @@
         </div>
       </div>
     </header>
+    <main>
+      <section class="card welcome-card">
+        <h1>Welcome to the Tech Returners Surgery!</h1>
 
-    <section>
-      <h1>Welcome to the Tech Returners Surgery!</h1>
+        <p>
+          The Tech Returners Surgery,<br />
+          115 Mancunian Way,<br />
+          Manchester,<br />
+          M20 3PX
+        </p>
+      </section>
 
-      <img
-        src="./assets/images/surgery.png"
-        alt="Medical equipment"
-        width="800"
-        height="500"
-      />
+      <section class="card card-welcome">
+        <h2>How to use Ask My Doc?</h2>
 
-      <p>
-        The Tech Returners Surgery,<br />
-        115 Mancunian Way,<br />
-        Manchester,<br />
-        M20 3PX
-      </p>
-    </section>
+        <video controls width="90%">
+          <source src="#" type="video/webm" />
+          <source src="#" type="video/mp4" />
 
-    <section>
-      <h2>How to use Ask My Doc?</h2>
+          <track
+            kind="captions"
+            srclang="en"
+            src="./ask_my_doc_transcript.vtt"
+            default
+          />
 
-      <video controls width="250">
-        <source src="#" type="video/webm" />
-        <source src="#" type="video/mp4" />
+          Sorry, your browser doesn't support embedded videos.
+        </video>
+      </section>
 
-        <track
-          kind="captions"
-          srclang="en"
-          src="./ask_my_doc_transcript.vtt"
-          default
-        />
+      <section class="card">
+        <h2>Need advice or have some feedback for us?</h2>
 
-        Sorry, your browser doesn't support embedded videos.
-      </video>
-    </section>
+        <form class="form-card">
+          <fieldset>
+            <legend>
+              Send us a message by filling out the form below and one of our
+              Receptionists will be in touch:
+            </legend>
 
-    <section>
-      <h2>Need advice or have some feedback for us?</h2>
+            <p>Are you completing this form on behalf of:</p>
 
-      <form>
-        <fieldset>
-          <legend>
-            Send us a message by filling out the form below and one of our
-            Receptionists will be in touch:
-          </legend>
+            <label for="self">Yourself </label>
+            <input type="checkbox" id="self" name="self" />
 
-          <p>Are you completing this form on behalf of:</p>
+            <label for="another">Someone else </label>
+            <input type="checkbox" id="another" name="another" />
 
-          <label for="self">Yourself </label>
-          <input type="checkbox" id="self" name="self" />
+            <div>
+              <label for="fname">First Name: </label>
+              <input type="text" id="fname" name="fname" required />
+            </div>
 
-          <label for="another">Someone else </label>
-          <input type="checkbox" id="another" name="another" />
+            <div>
+              <label for="lname">Last Name: </label>
+              <input type="text" id="lname" name="lname" required />
+            </div>
 
-          <div>
-            <label for="fname">First Name </label>
-            <input type="text" id="fname" name="fname" required />
-          </div>
+            <div>
+              <label for="dob">Date of Birth: </label>
+              <input type="date" id="dob" name="dob" required />
+            </div>
 
-          <div>
-            <label for="lname">Last Name </label>
-            <input type="text" id="lname" name="lname" required />
-          </div>
+            <div>
+              <label for="telephone">Telephone Number: </label>
+              <input type="tel" id="telephone" name="telephone" required />
+            </div>
 
-          <div>
-            <label for="dob">Date of Birth </label>
-            <input type="date" id="dob" name="dob" required />
-          </div>
+            <div>
+              <label for="email">Email: </label>
+              <input type="email" id="email" name="email" required />
+            </div>
 
-          <div>
-            <label for="telephone">Telephone Number: </label>
-            <input type="tel" id="telephone" name="telephone" required />
-          </div>
-
-          <div>
-            <label for="email">Email: </label>
-            <input type="email" id="email" name="email" required />
-          </div>
-
-          <div>
-            <label for="message">Your query or message: </label>
-            <input type="text" id="message" name="message" required />
-          </div>
-
-          <input type="submit" value="Submit" />
-        </fieldset>
-      </form>
-    </section>
+            <div>
+              <label for="message">Your query or message: </label>
+              <textarea
+                rows="5"
+                cols="30"
+                id="message"
+                name="message"
+                placeholder="Enter you message here."
+                required
+              >
+              </textarea>
+            </div>
+          </fieldset>
+        </form>
+      </section>
+    </main>
   </body>
 </html>
