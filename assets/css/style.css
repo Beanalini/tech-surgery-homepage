@@ -1,6 +1,7 @@
 body {
   font-family: "Arimo", sans-serif;
   background-color: #def2f1;
+  background-color: #05386b;
 }
 
 a {
@@ -97,7 +98,7 @@ nav ul li a:hover {
   }
 }
 .info-bar {
-  background-color: grey;
+  background-color: white;
 }
 .alert-info {
   text-align: center;
@@ -118,6 +119,7 @@ main {
   height: auto;
   border-radius: 10px;
   background-color: #88bdbc;
+  background-color: #116466;
   justify-content: center;
   margin-bottom: 50px;
   flex-direction: column;
@@ -185,4 +187,10 @@ footer {
   background-color: #05386b;
   border-top: 5px solid #116466;
   color: white;
+}
+@media (max-width: 600px) {
+  nav,
+  nav ul {
+    flex-direction: column;
+  }
 }
