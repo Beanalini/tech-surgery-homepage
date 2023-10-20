@@ -115,7 +115,7 @@ main {
 .card {
   color: white;
   display: flex;
-  width: 90%;
+  width: 60%;
   height: auto;
   border-radius: 10px;
   background-color: #88bdbc;
@@ -136,7 +136,8 @@ h1 {
 
 .welcome-card {
   background-image: url("../images/surgery.png");
-  opacity: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100vw;
   height: 35vh;
 }
