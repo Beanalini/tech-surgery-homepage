@@ -237,6 +237,7 @@ footer {
   border-top: 5px solid var(--garden-green);
   color: var(--white);
 }
+
 @media (max-width: 600px) {
   nav,
   nav ul {
