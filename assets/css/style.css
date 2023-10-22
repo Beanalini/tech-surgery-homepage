@@ -238,5 +238,6 @@ footer {
   nav,
   nav ul {
     flex-direction: column;
+    line-height: 1.4rem;
   }
 }
