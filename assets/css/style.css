@@ -146,23 +146,22 @@ main {
   align-items: center;
 }
 
-h1 {
-  font-size: 5rem;
-  /* font-size: clamp(3.05rem, 3.54vw + 2.17rem, 5rem); */
-  font-size: var(--font-size-xxxl);
-  -webkit-text-stroke: 1px black;
-  color: var(--white);
-  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
-    -1px 1px 0 #000;
-  text-align: center;
-}
-
 .welcome-card {
   background-image: url("../images/surgery.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
   min-height: 35vh;
+}
+
+h1 {
+  font-size: 5rem;
+  font-size: var(--font-size-xxl);
+  -webkit-text-stroke: 1px black;
+  color: var(--white);
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+    -1px 1px 0 #000;
+  text-align: center;
 }
 
 .card-welcome {
@@ -172,10 +171,11 @@ h1 {
 }
 
 .address {
-  background-color: var(--garden-green);
   background-color: var(--white);
+  font-style: normal;
   color: black;
   padding: 2rem;
+  margin-bottom: 2rem;
   border-radius: 1rem;
   border: 2px solid black;
 }
