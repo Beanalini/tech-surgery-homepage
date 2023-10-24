@@ -109,7 +109,7 @@
       <section class="card card-welcome">
         <h2>How to use Ask My Doc?</h2>
         <video controls width="90%">
-          <source src="#" type="video/webm" />
+          <source src="/media/cc0-videos/flower.webm" type="video/webm" />
           <source src="#" type="video/mp4" />
           <track
             kind="captions"
@@ -126,13 +126,16 @@
           <fieldset>
             <legend>
               Send us a message by filling out the form below and one of our
-              Receptionists will be in touch:
+              Receptionists will be in touch.
             </legend>
+
             <p>Are you completing this form on behalf of:</p>
-            <label for="self">Yourself </label>
-            <input type="checkbox" id="self" name="self" />
-            <label for="another">Someone else </label>
-            <input type="checkbox" id="another" name="another" />
+            <div class="checkbox-group">
+              <label for="self">Yourself: </label>
+              <input type="checkbox" id="self" name="self" />
+              <label for="another">Someone else: </label>
+              <input type="checkbox" id="another" name="another" />
+            </div>
             <div>
               <label for="fname">First Name: </label>
               <input type="text" id="fname" name="fname" required />

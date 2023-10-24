@@ -197,7 +197,13 @@ fieldset {
 .form-card fieldset > div {
   display: flex;
   flex-direction: column;
-  margin-bottom: 0.625rem;
+  margin-bottom: 1.25rem;
+}
+
+.form-card fieldset div:first-of-type {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
 }
 
 div input,
