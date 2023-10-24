@@ -144,7 +144,7 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
-  min-height: 35vh;
+  min-height: 30vh;
 }
 
 h1 {
@@ -164,6 +164,7 @@ h1 {
 .address {
   background-color: var(--white);
   font-style: normal;
+  font-size: var(--font-size-base);
   color: black;
   padding: 2rem;
   margin-bottom: 2rem;
