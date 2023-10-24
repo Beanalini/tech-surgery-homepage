@@ -37,7 +37,7 @@ header .info a {
 }
 
 .info {
-  padding-top: 10px;
+  padding-top: 0.625rem;
 }
 
 nav {
@@ -60,7 +60,7 @@ nav {
 
 .nav-links li {
   text-decoration: none;
-  padding-right: 30px;
+  padding-right: 1.875rem;
 }
 
 .nav-links a {
@@ -72,9 +72,9 @@ nav ul li a:hover {
 }
 
 .nav-search {
-  margin-right: 5px;
+  margin-right: 0.3125rem;
   display: flex;
-  border-radius: 5px;
+  border-radius: 0.3125rem;
   overflow: hidden;
 }
 
@@ -91,7 +91,7 @@ nav ul li a:hover {
 .ticker .ticker_content {
   display: flex;
   align-items: center;
-  height: 50px;
+  height: 3.125rem;
   color: var(--white);
   animation: ticker 30s linear infinite;
 }
@@ -120,7 +120,7 @@ nav ul li a:hover {
 }
 
 main {
-  margin-top: 3px;
+  margin-top: 0.1875rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -131,10 +131,10 @@ main {
   display: flex;
   width: 70%;
   height: auto;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   background-color: var(--garden-green);
   justify-content: center;
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
   flex-direction: column;
   align-items: center;
 }
@@ -158,7 +158,7 @@ h1 {
 }
 
 .card-welcome {
-  padding: 40px 0px;
+  padding: 2.5rem 0px;
 }
 
 .address {
@@ -168,7 +168,7 @@ h1 {
   padding: 2rem;
   margin-bottom: 2rem;
   border-radius: 1rem;
-  border: 2px solid black;
+  border: 0.125rem solid black;
 }
 
 h2 {
@@ -179,30 +179,30 @@ video {
 }
 
 .card-form {
-  padding: 40px 0px;
+  padding: 2.5rem 0px;
 }
 
 .form-card {
   background-color: var(--pale-green);
-  border-radius: 10px;
-  padding: 10px;
-  margin: 10px;
+  border-radius: 0.625rem;
+  padding: 0.625rem;
+  margin: 0.625rem;
 }
 
 fieldset {
   color: var(--garden-green);
-  border: 2px solid var(--navy-blue);
+  border: 0.125rem solid var(--navy-blue);
 }
 
 .form-card fieldset > div {
   display: flex;
   flex-direction: column;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 div input,
 div textarea {
-  padding: 5px 10px;
+  padding: 0.3125rem 0.625rem;
   border-color: var(--white);
 }
 
@@ -219,16 +219,16 @@ div label {
 
 footer {
   display: flex;
-  margin-top: 30px;
+  margin-top: 1.875rem;
   justify-content: center;
   width: 100%;
   height: fit-content;
   background-color: var(--navy-blue);
-  border-top: 5px solid var(--garden-green);
+  border-top: 0.3125rem solid var(--garden-green);
   color: var(--white);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 37.5rem) {
   nav,
   nav ul {
     flex-direction: column;
